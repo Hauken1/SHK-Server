@@ -1,0 +1,2 @@
+# SHK-Server
+Bacheloroppgave - Smarthus
