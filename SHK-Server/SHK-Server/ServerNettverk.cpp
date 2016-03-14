@@ -29,6 +29,7 @@ ServerNettverk::ServerNettverk(void)
 	hints.ai_protocol = IPPROTO_TCP;    // TCP connection!!!
 	hints.ai_flags = AI_PASSIVE;
 
+
 	// Resolve the server address and port
 	iResult = getaddrinfo(NULL, DEFAULT_PORT, &hints, &result);
 
