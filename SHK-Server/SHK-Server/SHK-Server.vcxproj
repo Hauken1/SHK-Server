@@ -111,6 +111,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ServerNettverk.cpp" />
+    <ClCompile Include="NettverksTjenester.cpp" />
+    <ClCompile Include="ServerTilkobling.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ServerData.h" />
+    <ClInclude Include="ServerNettverk.h" />
+    <ClInclude Include="NettverksTjenester.h" />
+    <ClInclude Include="ServerTilkobling.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
